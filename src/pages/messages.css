@@ -1,0 +1,32 @@
+.msg-wrap { display: grid; grid-template-columns: 340px 1fr; height: calc(100vh - 180px); min-height: 480px; overflow: hidden; }
+.msg-list { border-right: 1px solid rgba(255, 255, 255, .8); padding: 22px 14px; overflow: auto; }
+.msg-list h2 { padding: 0 8px 12px; }
+.conv { width: 100%; display: flex; gap: 12px; align-items: center; padding: 10px; border-radius: 14px; text-align: left; }
+.conv:hover { background: rgba(255, 255, 255, .5); }
+.conv.on { background: rgba(255, 255, 255, .8); }
+.conv img { width: 44px; height: 44px; border-radius: 12px; object-fit: cover; flex: none; }
+.conv span { flex: 1; min-width: 0; }
+.conv b { display: block; font-size: 14.5px; }
+.conv small { display: block; color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.conv time { font-size: 12px; color: var(--muted); align-self: flex-start; margin-top: 3px; }
+.msg-thread { display: flex; flex-direction: column; min-width: 0; }
+.thread-head { display: flex; align-items: center; gap: 12px; padding: 20px 24px; border-bottom: 1px solid rgba(255, 255, 255, .8); }
+.thread-back { display: none; }
+.thread-body { flex: 1; overflow: auto; padding: 20px 24px; display: flex; flex-direction: column; gap: 14px; }
+.bubble-msg { display: flex; gap: 10px; max-width: 75%; }
+.bubble-msg small { font-size: 12px; color: var(--muted); }
+.bubble-msg p { background: rgba(255, 255, 255, .85); padding: 10px 14px; border-radius: 4px 16px 16px 16px; font-size: 14.5px; margin-top: 3px; }
+.bubble-msg.me { align-self: flex-end; text-align: right; }
+.bubble-msg.me p { background: var(--grad); color: #fff; border-radius: 16px 4px 16px 16px; text-align: left; }
+.thread-input { display: flex; gap: 10px; padding: 14px 18px; border-top: 1px solid rgba(255, 255, 255, .8); }
+.thread-input input { flex: 1; height: 46px; border-radius: 999px; border: 1px solid #fff; background: rgba(255, 255, 255, .8); padding: 0 18px; outline: 0; }
+.thread-input input:focus { box-shadow: 0 0 0 3px rgba(139, 92, 246, .15); }
+.thread-input .btn { width: 46px; padding: 0; }
+@media (max-width: 720px) {
+  .msg-wrap { grid-template-columns: 1fr; height: calc(100vh - 170px); }
+  .msg-wrap.has-cur .msg-list { display: none; }
+  .msg-wrap:not(.has-cur) .msg-thread { display: none; }
+  .thread-back { display: inline-flex; }
+  .thread-head, .thread-body { padding: 14px; }
+  .bubble-msg { max-width: 90%; }
+}

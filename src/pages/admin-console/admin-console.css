@@ -1,0 +1,97 @@
+/* admin-console.css — Platform Admin Dashboard styles */
+
+/* ── Admin login ──────────────────────────────────────────────────────────── */
+.admin-login-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 72px);
+  padding: 24px 16px;
+}
+
+.admin-login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 36px;
+  border-radius: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-login-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #8b5cf6, #7c4df2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.35);
+}
+
+.admin-login-card h1 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0 0 4px;
+}
+
+.admin-login-card .auth-fields {
+  width: 100%;
+  text-align: left;
+}
+
+.admin-security-note {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 100%;
+  text-align: left;
+}
+
+/* ── Activity rows ────────────────────────────────────────────────────────── */
+.activity-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(120, 100, 170, 0.08);
+  font-size: 13.5px;
+}
+
+.activity-row:last-child { border-bottom: none; }
+
+.activity-icon {
+  font-size: 16px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.activity-label {
+  flex: 1;
+  color: var(--fg);
+}
+
+.activity-time {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .admin-login-card { padding: 28px 20px; }
+}

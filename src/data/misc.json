@@ -1,0 +1,29 @@
+{
+  "growth": [ {"m":"May","v":4}, {"m":"Jun","v":15}, {"m":"Jul","v":24}, {"m":"Aug","v":36}, {"m":"Sep","v":38}, {"m":"Oct","v":48,"n":6} ],
+  "growth12": [ {"m":"Nov","v":0}, {"m":"Dec","v":1}, {"m":"Jan","v":2}, {"m":"Feb","v":2}, {"m":"Mar","v":3}, {"m":"Apr","v":3}, {"m":"May","v":4}, {"m":"Jun","v":15}, {"m":"Jul","v":24}, {"m":"Aug","v":36}, {"m":"Sep","v":38}, {"m":"Oct","v":48,"n":6} ],
+  "notifications": [
+    { "id": "no1", "text": "Seine Runners posted a new event: Sunday long run", "time": "2 h ago", "unread": true },
+    { "id": "no2", "text": "Your join request to Chess & Coffee was accepted", "time": "Yesterday", "unread": true },
+    { "id": "no3", "text": "Paris Piano Collective: Open jam session is tomorrow", "time": "Yesterday", "unread": true },
+    { "id": "no4", "text": "Street Photo Paris shared 24 new photos", "time": "3 days ago", "unread": false }
+  ],
+  "conversations": [
+    { "id": "c1", "club": "paris-piano", "name": "Paris Piano Collective", "last": "Camille: who brings the metronome?", "time": "18:42", "messages": [
+      { "from": "Camille R.", "text": "Hi everyone! Jam session on Friday at 19:00 🎹", "time": "17:10" },
+      { "from": "Hugo Petit", "text": "I'll be there, can I bring a friend?", "time": "17:25" },
+      { "from": "Camille R.", "text": "Of course! And who brings the metronome?", "time": "18:42" } ] },
+    { "id": "c2", "club": "seine-runners", "name": "Seine Runners", "last": "Hugo: 10k pace this sunday", "time": "16:03", "messages": [
+      { "from": "Hugo M.", "text": "Sunday long run: meeting at Porte Dorée, 10k easy pace.", "time": "16:03" } ] },
+    { "id": "c3", "club": "street-photo", "name": "Street Photo Paris", "last": "Inès: photos are online!", "time": "Mon", "messages": [
+      { "from": "Inès B.", "text": "Photos from Belleville are online!", "time": "Mon" } ] }
+  ],
+  "announcements": [
+    { "id": "a1", "title": "New rehearsal room 🎉", "body": "From November we rehearse in Studio B every Friday. Bring your own headphones for the digital pianos.", "date": "2026-10-02", "audience": "All members" },
+    { "id": "a2", "title": "Classical night: call for performers", "body": "We need 6 performers for the Debussy night on 22 Oct. Reply in Messages before Sunday.", "date": "2026-09-27", "audience": "All members" }
+  ],
+  "payouts": [
+    { "id": "p1", "date": "2026-10-01", "amount": 240, "status": "Paid", "ref": "PO-2026-10" },
+    { "id": "p2", "date": "2026-09-01", "amount": 300, "status": "Paid", "ref": "PO-2026-09" },
+    { "id": "p3", "date": "2026-08-01", "amount": 150, "status": "Paid", "ref": "PO-2026-08" }
+  ]
+}

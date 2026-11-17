@@ -1,0 +1,57 @@
+.topbar {
+  position: relative; z-index: 20; height: 80px; border-radius: 26px; display: flex; align-items: center;
+  padding: 0 18px 0 28px; background: rgba(255, 255, 255, .45);
+}
+.tb-logo { width: 190px; flex: none; }
+.tb-search { flex: 0 1 756px; height: 56px; display: flex; align-items: center; gap: 12px; padding: 0 6px 0 20px; border-radius: 999px; background: rgba(255, 255, 255, .78); border: 1px solid rgba(255, 255, 255, .95); min-width: 0; }
+.tb-search > svg { color: #3b3748; flex: none; }
+.tb-search input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font-size: 16px; }
+.tb-search input::placeholder { color: #4f4b5e; }
+.tb-search:focus-within { box-shadow: 0 0 0 3px rgba(139, 92, 246, .15); }
+.tb-loc { height: 40px; padding: 0 16px 0 14px; border-radius: 999px; background: #f1ebfb; display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; white-space: nowrap; flex: none; }
+.tb-loc svg { color: #c03fb7; }
+.tb-actions { margin-left: auto; display: flex; gap: 16px; align-items: center; }
+.tb-circle { position: relative; width: 52px; height: 52px; border-radius: 50%; background: rgba(255, 255, 255, .78); border: 1px solid rgba(255, 255, 255, .95); display: inline-flex; align-items: center; justify-content: center; color: #2b2838; transition: background .15s; }
+.tb-circle:hover { background: #fff; }
+.tb-dot { position: absolute; top: 12px; right: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--badge); border: 1.5px solid #fff; }
+.tb-badge { position: absolute; top: -6px; right: -6px; }
+.tb-avatar { width: 52px; height: 52px; border-radius: 50%; padding: 3px; background: #fff; box-shadow: 0 2px 10px rgba(0, 0, 0, .08); }
+.tb-avatar img, .tb-avatar span { width: 46px !important; height: 46px !important; }
+
+.dropdown { position: absolute; top: 88px; right: 18px; width: 360px; max-width: calc(100vw - 32px); background: rgba(255, 255, 255, .95); border-radius: 20px; box-shadow: 0 20px 50px rgba(70, 40, 140, .2); padding: 10px; animation: fade .15s; }
+.dd-head { display: flex; justify-content: space-between; align-items: center; padding: 8px 10px 10px; }
+.dd-head button { color: var(--violet); font-size: 13px; font-weight: 600; }
+.notif { width: 100%; text-align: left; display: flex; gap: 12px; padding: 10px; border-radius: 12px; font-size: 14px; }
+.notif:hover { background: #f5f0fd; }
+.notif small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.notif-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 6px; flex: none; background: transparent; }
+.notif.unread .notif-dot { background: var(--badge); }
+.notif.unread .notif-text { font-weight: 600; }
+.me-panel { width: 280px; right: 80px; }
+.me-head { display: flex; gap: 12px; align-items: center; padding: 8px 10px 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.me-head small { display: block; color: var(--muted); font-size: 12px; }
+.dd-item { width: 100%; display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 10px; font-size: 14px; font-weight: 500; text-align: left; }
+.dd-item:hover { background: #f5f0fd; }
+
+@media (max-width: 1180px) {
+  .tb-logo { width: auto; margin-right: 20px; }
+  .tb-actions { gap: 10px; margin-left: 16px; }
+  .tb-circle, .tb-avatar { width: 46px; height: 46px; }
+  .tb-avatar img, .tb-avatar span { width: 40px !important; height: 40px !important; }
+}
+@media (max-width: 860px) {
+  .topbar { flex-wrap: wrap; height: auto; padding: 12px 14px; row-gap: 12px; border-radius: 22px; }
+  .tb-logo { order: 1; }
+  .tb-actions { order: 2; gap: 8px; margin-left: auto; }
+  .tb-search { order: 3; flex: 1 1 100%; height: 50px; }
+  .dropdown { top: 70px; right: 10px; }
+  .me-panel { right: 10px; }
+}
+@media (max-width: 480px) {
+  .tb-circle, .tb-avatar { width: 40px; height: 40px; }
+  .tb-avatar img, .tb-avatar span { width: 34px !important; height: 34px !important; }
+  .tb-actions a[aria-label="My calendar"] { display: none; }
+  .tb-loc { font-size: 13px; padding: 0 10px; height: 36px; }
+  .tb-search input { font-size: 15px; }
+  .tb-logo .logo > span { font-size: 26px !important; }
+}

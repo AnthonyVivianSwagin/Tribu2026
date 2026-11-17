@@ -1,0 +1,10 @@
+[
+  { "id": "m1", "name": "Camille R.", "school": "ECE Paris", "role": "Leader", "joined": "2025-09-12", "avatar": "/img/camille.jpg", "events": 21 },
+  { "id": "m2", "name": "Léa Martin", "school": "ECE Paris", "role": "Member", "joined": "2026-02-03", "avatar": "/img/lea.jpg", "events": 9 },
+  { "id": "m3", "name": "Hugo Petit", "school": "Sorbonne Université", "role": "Co-leader", "joined": "2025-09-20", "avatar": "", "events": 17 },
+  { "id": "m4", "name": "Sarah Benali", "school": "Sciences Po Paris", "role": "Member", "joined": "2026-03-14", "avatar": "", "events": 6 },
+  { "id": "m5", "name": "Nathan Roux", "school": "EPITA", "role": "Member", "joined": "2026-05-02", "avatar": "", "events": 4 },
+  { "id": "m6", "name": "Emma Laurent", "school": "Université Paris Cité", "role": "Member", "joined": "2026-09-01", "avatar": "", "events": 2 },
+  { "id": "m7", "name": "Rayan Haddad", "school": "ECE Paris", "role": "Member", "joined": "2026-09-18", "avatar": "", "events": 1 },
+  { "id": "m8", "name": "Jade Moreau", "school": "Dauphine", "role": "Member", "joined": "2026-10-01", "avatar": "", "events": 0 }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "e1", "clubId": "paris-piano", "title": "Open jam session", "date": "2026-12-05", "start": "19:00", "end": "22:00", "place": "Studio B · Paris 5e", "rsvp": 28, "capacity": 40, "status": "Published", "img": "/img/ev-piano.jpg" },
+  { "id": "e2", "clubId": "paris-piano", "title": "Classical night: Debussy", "date": "2026-12-19", "start": "18:30", "end": "21:00", "place": "Salle des Fêtes · Paris 5e", "rsvp": 12, "capacity": 30, "status": "Published", "img": "/img/ev-sheet.jpg" },
+  { "id": "e3", "clubId": "paris-piano", "title": "Piano workshop", "date": "2027-01-09", "start": "14:00", "end": "17:00", "place": "Médiathèque Mouffetard", "rsvp": 8, "capacity": 20, "status": "Draft", "img": "/img/ev-workshop.jpg" },
+  { "id": "n1", "clubId": "paris-piano", "title": "Open jam session", "date": "2026-12-05", "start": "19:00", "end": "21:00", "place": "Le Hasard Ludique", "next": true },
+  { "id": "n2", "clubId": "seine-runners", "title": "Sunday long run", "date": "2026-11-23", "start": "09:00", "end": "11:00", "place": "Bois de Vincennes", "next": true },
+  { "id": "n3", "clubId": "street-photo", "title": "Photo walk: Belleville", "date": "2026-12-01", "start": "16:00", "end": "18:30", "place": "Métro Belleville" },
+  { "id": "n4", "clubId": "chess-coffee", "title": "Blitz tournament", "date": "2026-11-28", "start": "15:00", "end": "19:00", "place": "Café Craft · Paris 15e" }
+]

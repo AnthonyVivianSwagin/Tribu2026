@@ -1,0 +1,22 @@
+[
+  { "id": "paris-piano", "name": "Paris Piano Collective", "icon": "Piano", "cover": "/img/club-piano.jpg", "members": 48, "category": "Music", "tags": ["Music", "Piano"], "distance": 1.2, "price": 15, "city": "Paris 5e", "unread": 2, "public": true,
+    "description": "A friendly collective of student pianists. Weekly open jams, classical nights and workshops for every level — from first chords to Debussy.", "leader": "Camille R." },
+  { "id": "seine-runners", "name": "Seine Runners", "icon": "Activity", "cover": "/img/club-runners.jpg", "members": 132, "category": "Sport", "tags": ["Sport", "Running"], "distance": 3.1, "price": 0, "city": "Paris 7e", "unread": 1, "public": true,
+    "description": "Run along the Seine with other students. Easy 5k on Wednesdays, long runs on Sundays, and a pastry stop at the end. Always.", "leader": "Hugo M." },
+  { "id": "street-photo", "name": "Street Photo Paris", "icon": "Camera", "cover": "/img/club-photo.jpg", "members": 76, "category": "Art", "tags": ["Art", "Photography"], "distance": 2.0, "price": 0, "city": "Paris 11e", "unread": 1, "public": true,
+    "description": "Photo walks through Paris neighbourhoods, critique sessions and a yearly exhibition. Phones welcome, film cameras celebrated.", "leader": "Inès B." },
+  { "id": "chess-coffee", "name": "Chess & Coffee", "icon": "Coffee", "cover": "/img/club-chess.jpg", "members": 39, "category": "Gaming", "tags": ["Gaming", "Chess"], "distance": 0.8, "price": 0, "city": "Paris 15e", "unread": 1, "public": true,
+    "description": "Casual chess over good coffee. Blitz tournaments every month, beginners' corner every week.", "leader": "Yanis K." },
+  { "id": "climbing-crew", "name": "Climbing Crew Paris", "icon": "Mountain", "cover": "/img/s-climbing.jpg", "members": 64, "category": "Sport", "tags": ["Sport", "Outdoor"], "distance": 2.4, "price": 0, "city": "Paris 13e", "public": true,
+    "description": "Bouldering sessions after class and weekend trips to Fontainebleau. Shoes can be borrowed for your first session." , "leader": "Lina T."},
+  { "id": "jazz-lovers", "name": "Jazz Lovers 13e", "icon": "Music", "cover": "/img/s-jazz.jpg", "members": 51, "category": "Music", "tags": ["Music", "Jazz"], "distance": 2.4, "price": 15, "city": "Paris 13e", "public": true,
+    "description": "Live jazz nights, jam sessions and listening clubs. The one-time fee covers the rehearsal room for the year.", "leader": "Malik D." },
+  { "id": "indie-game", "name": "Indie Game Makers", "icon": "Gamepad2", "cover": "/img/s-indie.jpg", "members": 88, "category": "Tech", "tags": ["Tech", "Gaming"], "distance": 2.4, "price": 0, "city": "Paris 15e", "public": true,
+    "description": "Build small games together. Game jams every two months, Godot and Unity workshops, playtest evenings.", "leader": "Théo L." },
+  { "id": "salsa-nights", "name": "Salsa Nights", "icon": "Heart", "cover": "/img/s-salsa.jpg", "members": 97, "category": "Music", "tags": ["Music", "Dance"], "distance": 2.4, "price": 15, "city": "Paris 10e", "public": true,
+    "description": "Salsa and bachata classes for beginners followed by a social dance night. No partner needed.", "leader": "Sofia R." },
+  { "id": "urban-sketchers", "name": "Urban Sketchers", "icon": "Palette", "cover": "/img/s-sketch.jpg", "members": 43, "category": "Art", "tags": ["Art", "Outdoor"], "distance": 2.4, "price": 0, "city": "Paris 4e", "public": true,
+    "description": "We draw the city, on location, one sketch at a time. Meet-ups every Saturday morning near a monument.", "leader": "Clara V." },
+  { "id": "debate-society", "name": "Debate Society", "icon": "MessageCircle", "cover": "/img/s-debate.jpg", "members": 58, "category": "Culture", "tags": ["Culture", "Society"], "distance": 2.4, "price": 0, "city": "Paris 6e", "public": true,
+    "description": "Weekly debates on tech, politics-free society topics and philosophy. Great to practise public speaking in English and French.", "leader": "Adam F." }
+]

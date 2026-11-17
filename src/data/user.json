@@ -1,0 +1,5 @@
+{
+  "student": { "id": "u1", "name": "Léa Martin", "firstName": "Léa", "email": "lea.martin@edu.ece.fr", "password": "tribu-2026!", "avatar": "/img/lea.jpg", "school": "ECE Paris", "city": "Paris", "radius": 10, "role": "student",
+    "clubs": ["paris-piano", "seine-runners", "street-photo", "chess-coffee"], "leaderOf": ["paris-piano"] },
+  "leader": { "id": "u2", "name": "Camille R.", "avatar": "/img/camille.jpg", "role": "Leader" }
+}

@@ -1,0 +1,6 @@
+[
+  { "id": "r1", "name": "Manon Dupont", "school": "Sciences Po Paris", "avatar": "/img/manon.jpg", "date": "2026-10-03", "message": "I've played for 8 years, mostly classical. Would love to join the jams!" },
+  { "id": "r2", "name": "Lucas Bernard", "school": "Sorbonne Université", "avatar": "/img/lucas.jpg", "date": "2026-10-04", "message": "Beginner but motivated :)" },
+  { "id": "r3", "name": "Chloé Nguyen", "school": "Université Paris Cité", "avatar": "/img/chloe.jpg", "date": "2026-10-05", "message": "Jazz pianist, happy to help with workshops." },
+  { "id": "r4", "name": "Adam Fontaine", "school": "ECE Paris", "avatar": "", "date": "2026-10-06", "message": "Saw your poster at ECE, count me in." }
+]
