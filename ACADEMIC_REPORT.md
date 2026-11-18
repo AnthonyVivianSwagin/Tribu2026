@@ -1,6 +1,12 @@
 # Academic Report — Tribu 2026
 ## Front-End Development
 
+**Project Team:**
+- Vivian Swagin
+- Harish
+- Tarek
+- Carel
+
 ---
 
 ## 1. Project Overview
